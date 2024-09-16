@@ -1,0 +1,81 @@
+.stline{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom:50px;
+}
+
+
+.nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #1A99BB;
+    padding: 15px;
+    border-radius: 4px;
+
+}
+
+.item{
+    display: inline-flex;
+    margin-left:10%;
+    margin-bottom:20px;
+}
+
+.item h4{
+    margin-left:20px;
+    cursor: pointer;
+}
+
+.show{
+    width: 20%;
+}
+.hide{
+    opacity: 0.7;
+}
+
+.hide:hover{
+    opacity:1;
+}
+
+
+.icon{
+    width:25px;
+    height:25px;
+    cursor: pointer;
+}
+
+.log{
+    margin-top:20px;
+}
+
+.closeicons{
+    display: block;
+}
+
+.iconitem{
+    margin-left:10px;
+}
+
+
+@media (max-width:500px) {
+
+    .icon{
+        width:15px;
+        height:15px;
+        cursor: pointer;
+    }
+
+.item{
+    display: inline-flex;
+    margin-bottom:15px;
+}
+
+.show{
+    width: 40%;
+}
+
+
+
+}

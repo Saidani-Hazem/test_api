@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+html{
+    background-color:lightgray;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    letter-spacing: 1.5px;
+}
+
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    letter-spacing: 1px;
+}
+
+
+
+
+.Link{
+    text-decoration: none;
+    color: black;
+}
+
+.Link:hover{
+    color: white;
+}
+
+p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+  font-weight:medium;
+  font-style: normal;
+}
+
+h3{
+    font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+}
+
+h6{
+    font-family: "MuseoModerno", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+  font-weight:large;
+  font-style: normal;
+
+}
+
+
+/* Responsive style */
+
+@media (max-width:500px) {
+    h1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:normal;
+        letter-spacing: 0.5px;
+    }
+    
+    h4{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:small;
+        letter-spacing: 0.5px;
+    }
+
+    p{
+        font-family: "Quicksand", sans-serif;
+        font-size: 10px;
+      font-weight:normal;
+      font-style: normal;
+    }
+    
+    h3{
+        font-family: "MuseoModerno", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: medium;
+      font-style: normal;
+    }
+    
+    h6{
+        font-family: "MuseoModerno", sans-serif;
+      font-size: 10px;
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    h2{
+        font-family: "Quicksand", sans-serif;
+        font-size: 14px;
+      font-weight:large;
+      font-style: normal;
+    
+    }
+
+
+
+}

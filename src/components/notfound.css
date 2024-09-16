@@ -1,0 +1,31 @@
+.notfound{
+    display: flex;
+    position: fixed;
+    left:50%;
+    top:50%;
+    translate:-50% -50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.notfoundimg{
+    width:60px;
+    height: 60px;
+    margin-right:20px;
+}
+
+.notfound h4{
+    font-size:x-large;
+    color: orangered;
+ }
+
+ .gotohome{
+    color:black;
+    font-weight: bold;
+ }
+
+ .gotohome:hover{
+    color:navy;
+ }
