@@ -11,7 +11,7 @@ const Nav = () => {
   };
 
   return (
-    <>
+    <div onClick={Nav}>
       {!isHidden ? (
         <div className="nav show">
           <div className="stline">
@@ -58,7 +58,7 @@ const Nav = () => {
           
         </div>
       )}
-    </>
+    </div>
   );
 };
 

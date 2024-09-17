@@ -54,6 +54,35 @@
     height:100px;
 }
 
+
+.input{
+    width:25%;
+    height:15px;
+    margin-left:50%;
+    translate: -50%;
+    margin-top:20px;
+    padding:10px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid black;
+    margin-bottom:20px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+
+.input:focus{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+
+/* responsive style*/
+
 @media (max-width:500px){
 
     .card{
@@ -93,6 +122,14 @@
         display: inline-flex;
         align-content: center;
         margin-left:50px;
+    }
+
+
+
+    .input{
+        width:60%;
+        margin-left:53%;
+    translate: -50%;
     }
 
 
