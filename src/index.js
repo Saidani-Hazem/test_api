@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import Notfound from './components/notfound';
 import Posts from './pages/posts';
+import Count from './pages/count';
 
 
 
@@ -20,18 +21,23 @@ import Posts from './pages/posts';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
-  errorElement:<Notfound found={"Page"}/>
+    element: <Count/>,
+  
   },
   {
     path: "/users",
     element: <Users/>,
-    errorElement:<Notfound found={"Page"}/>
+    
   },
   {
     path: "/posts",
     element: <Posts/>,
-    errorElement:<Notfound found={"Page"}/>
+    
+  },
+ 
+  {
+    path:"*",
+    element:<Notfound found={"Page"}/>
   }
 ]);
 
